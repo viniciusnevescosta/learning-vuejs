@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Vue Learning App</title>
+</head>
+<body>
+  <div id="shopping-list" v-cloak>
+    <div class="header">
+      <h1>{{h1}}</h1>
+      <button v-if="editing" 
+        class="btn btn-cancel"
+        @click="edit(false)"
+        >
+        Cancelar
+      </button>
+      <button v-else="editing" 
+        class="btn btn-primary"
+        @click="edit(true)"
+        >
+        Editar
+      </button>
+    </div>
+    <form 
+      @submit.prevent="addToItems" 
+      v-if="editing"
+      class="add-item-form"
+    >
+      <input 
+        v-model="item" 
+        type="text" 
+        placeholder="Adicionar item"
+      />
+      <label for="">
+        <input type="checkbox" v-model="itemHighPriority">
+        Prioridade
+      </label>
+      <button 
+        :disabled="item.length < 3"
+        class="btn btn-primary">Salvar item</button>
+    </form>
+    <ul>
+      <li 
+        v-for="item in reversedItems"
+        @click="completado(item)"
+        :key="item.id"
+        :class="[
+          {strikeout: item.purchased},
+          {priority: item.priority},
+          // outra-classe
+        ]"
+        >
+        {{item.label}}
+      </li>
+    </ul>
+
+    <p v-if="!items.length">{{p}}</p>
+  </div>
+
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="main.js"></script>
+</body>
+</html>
