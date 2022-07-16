@@ -1,3 +1,11 @@
+![GitHub language count](https://img.shields.io/github/languages/count/Jolonte/vuejs-fundamentals)
+![GitHub top language](https://img.shields.io/github/languages/top/Jolonte/vuejs-fundamentals)
+![GitHub license](https://img.shields.io/github/license/Jolonte/vuejs-fundamentals)
+
+<!-- <p align="center">
+  <img height="400em" src="cover.png"
+</p> -->
+
 # Vue 3 Fundamentals (Options API)
 
 Concept learning project for beginners in the Vue.js framework.
@@ -12,7 +20,7 @@ Concept learning project for beginners in the Vue.js framework.
 
 ## Screenshots
 
-App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](cover.png)
 
 
 ## Learnings
