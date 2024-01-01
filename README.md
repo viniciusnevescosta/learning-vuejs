@@ -21,6 +21,12 @@ Este projeto faz parte da minha jornada de aprendizado, explorando as poderosas 
 
 ## Como Testar
 
+### Deploy
+
+- [vuejs-fundamentals](https://vuejs-fundamentals.vercel.app/)
+
+### Localmente
+
 1. **Clone o Repositório:**
    ```bash
    git clone https://github.com/viniciusnevescosta/learning-vuejs.git
