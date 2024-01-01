@@ -4,8 +4,6 @@
 
 Welcome to the repository of my VueJs learning project! Here, I delved into the world of VueJs, creating a web app to manage shopping lists.
 
-- [Read in english](en_README.md)
-
 ## Summary of Contents
 
 - [Overview](#overview)
