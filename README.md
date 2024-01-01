@@ -4,7 +4,7 @@
 
 Bem-vindo ao repositório do meu projeto de aprendizado em VueJs! Aqui, mergulhei no mundo do VueJs, criando um web app para gerenciar listas de compras.
 
-- [Read in english]()
+- [Read in english](en_README.md)
 
 ## Sumário de Conteúdos
 
