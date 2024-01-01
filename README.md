@@ -2,6 +2,8 @@
 
 ![image](https://github.com/viniciusnevescosta/learning-vuejs/assets/66970818/b72d86a3-374e-41e7-85e8-086aaa5134d5)
 
+Bem-vindo ao repositório do meu projeto de aprendizado em VueJs! Aqui, mergulhei no mundo do VueJs, criando um web app para gerenciar listas de compras.
+
 - [Read in english]()
 
 ## Sumário de Conteúdos
@@ -11,8 +13,6 @@
 - [Funcionalidades](#funcionalidades)
 - [Como Testar](#como-testar)
 - [Aprendizados Adquiridos](#aprendizados-adquiridos)
-
-Bem-vindo ao repositório do meu projeto de aprendizado em VueJs! Aqui, mergulhei no mundo do VueJs, criando um web app para gerenciar listas de compras.
 
 ## Visão Geral
 
